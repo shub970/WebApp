@@ -1,0 +1,55 @@
+1550600185750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zF22loxCtCIh"
+1550600186402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550600186403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550600189943	Marionette	INFO	Listening on port 43575
+1550600189971	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10708, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-1juj5k/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 10708, Gecko_IOThread] WARNING: pipe error (111): Connection reset by peer: file /build/firefox-1juj5k/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550600293197	Marionette	INFO	Stopped listening on port 43575
+1550600378023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e5URZAyZ7eD2"
+1550600378528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550600378529	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550600381381	Marionette	INFO	Listening on port 40111
+1550600381482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550600398077	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550600398351	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+
+(firefox:11501): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fa28a6a74c0' of type 'MaiAtkType13b'
+1550600398362	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+
+(firefox:11501): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fa28a816f10' of type 'MaiAtkType139'
+[Parent 11501, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-1juj5k/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550600406536	Marionette	INFO	Stopped listening on port 40111
+1550640395957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rFcjQe2ptYxh"
+1550640396403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550640396404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550640398909	Marionette	INFO	Listening on port 39439
+1550640398995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550640410141	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+
+(firefox:5008): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7dad8094c0' of type 'MaiAtkType13b'
+1550640410446	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550640410461	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+
+(firefox:5008): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7dacc14600' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+
+(firefox:5008): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7dacc146f0' of type 'MaiAtkType139'
+
+(firefox:5008): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f7dacbff150' of type 'MaiAtkType139'
+[Parent 5008, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-1juj5k/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 5008, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-1juj5k/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550640510325	Marionette	INFO	Stopped listening on port 39439
